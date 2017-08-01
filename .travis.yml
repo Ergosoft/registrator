@@ -1,6 +1,5 @@
 language: java
 deploy:
-  provider: openshift
-  user: "openshit@raz2.pl"
-  password: "nokia3310" # can be encrypted
-  domain: "ergosoft"
+  provider: gae
+  keyfile: "register-c40c8e7fc00e.json"
+  project: "register"
