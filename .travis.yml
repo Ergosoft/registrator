@@ -1,1 +1,6 @@
 language: java
+deploy:
+  provider: openshift
+  user: "openshit@raz2.pl"
+  password: "nokia3310" # can be encrypted
+  domain: "ergosoft"
