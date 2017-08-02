@@ -1,5 +1,5 @@
 language: java
 deploy:
-  provider: gae
-  keyfile: "register-c40c8e7fc00e.json"
-  project: "register"
+  provider: heroku
+  api_key:
+    secure: "5e029a7b-10b6-4dab-aa7c-800aef6cc462"
